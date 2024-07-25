@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 const ContactPage = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
-  const text = "Say Hello";
+  const text = "Contact Me";
 
   const form = useRef();
 
@@ -50,7 +50,7 @@ const ContactPage = () => {
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
                 transition={{
-                  duration: 3,
+                  duration: 2,
                   repeat: Infinity,
                   delay: index * 0.1,
                 }}
@@ -58,7 +58,6 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            😊
           </div>
         </div>
         {/* FORM CONTAINER */}
@@ -67,20 +66,29 @@ const ContactPage = () => {
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Dear Lama Dev,</span>
+          <span>Hello Saahir,</span>
           <textarea
             rows={6}
             className="bg-transparent border-b-2 border-b-black outline-none resize-none"
             name="user_message"
+            placeholder="Enter your message"
           />
-          <span>My mail address is:</span>
+          <span>My name/organization is:</span>
+          <input
+            name="user_name"
+            type="text"
+            className="bg-transparent border-b-2 border-b-black outline-none"
+            placeholder="Enter your name/organization"
+          />
+          <span>My email address is:</span>
           <input
             name="user_email"
             type="text"
             className="bg-transparent border-b-2 border-b-black outline-none"
+            placeholder="Enter your email"
           />
           <span>Regards</span>
-          <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
+          <button className="bg-blue-800 hover:transform hover:scale-105 transition duration-250 rounded-md font-semibold text-white p-4">
             Send
           </button>
           {success && (

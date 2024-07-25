@@ -5,8 +5,11 @@ import TransitionProvider from "@/components/transitionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Portfolio App",
-  description: "The best animated portfolio page",
+  title: "Saahir Vazirani Personal Website",
+  description: "Personal website for Saahir Vazirani. This website includes home, about, portfolio, and contact pages. This website was built using Next.JS, Framer Motion, and Tailwind CSS",
+  icons: {
+    icon:['/favicon.ico?v=4']
+  }
 };
 
 export default function RootLayout({ children }) {
