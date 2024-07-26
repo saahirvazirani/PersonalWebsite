@@ -41,16 +41,16 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">ABOUT SAAHIR</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Saahir Vazirani is a 16-year-old from New Jersey who is deeply passionate about the intersection of AI and policy. He is the creator of "LegisEase," a groundbreaking web app that revolutionizes the policy writing process using AI.
+              Saahir Vazirani is a 16-year-old from New Jersey who is deeply passionate about the intersection of AI and policy. He is the creator of LegisEase, a groundbreaking web app that revolutionizes the policy writing process using AI.
             </p>
             <p className="text-lg">
-              Saahir's commitment to policy is evident through his service as a student advisor to Congressman Frank Pallone’s Technology Committee, representing over 450,000 students. He was one of only two national YMCA Youth Advocates from New Jersey to champion YMCA-backed policies on Capitol Hill during National Advocacy Days. As a New Jersey YMCA Youth and Government State Officer, Saahir plays a pivotal role in planning a 500+ participant civic engagement conference.
+              Saahir&#39;s commitment to policy is evident through his service as a student advisor to Congressman Frank Pallone&#39;s Technology Committee, representing over 450,000 students. He was one of only two national YMCA Youth Advocates from New Jersey to champion YMCA-backed policies on Capitol Hill during National Advocacy Days. As a New Jersey YMCA Youth and Government State Officer, Saahir plays a pivotal role in planning a 500+ participant civic engagement conference.
             </p>
             <p className="text-lg">
               In the realm of technology, Saahir has earned recognition as a Headstarter AI Software Engineer Fellow, where he is leveraging AI to address a startup's backlog. Additionally, he is a Ballotpedia Research Fellow, dedicated to supporting the mission of spreading unbiased political candidate information.
             </p>
             <p className="text-lg">
-              Saahir's academic achievements are equally impressive. He is an International Research Olympiad Semi-finalist and an ACSL National Finals Qualifier. Beyond his academic and professional pursuits, he serves as a subject tutor on Upchieve and is an enthusiastic rower for his high school team.
+              Saahir&#39;s academic achievements are equally impressive. He is an International Research Olympiad Semi-finalist and an ACSL National Finals Qualifier. Beyond his academic and professional pursuits, he serves as a subject tutor on Upchieve and is an enthusiastic rower for his high school team.
             </p>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
