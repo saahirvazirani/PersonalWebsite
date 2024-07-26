@@ -47,7 +47,7 @@ const AboutPage = () => {
               Saahir&#39;s commitment to policy is evident through his service as a student advisor to Congressman Frank Pallone&#39;s Technology Committee, representing over 450,000 students. He was one of only two national YMCA Youth Advocates from New Jersey to champion YMCA-backed policies on Capitol Hill during National Advocacy Days. As a New Jersey YMCA Youth and Government State Officer, Saahir plays a pivotal role in planning a 500+ participant civic engagement conference.
             </p>
             <p className="text-lg">
-              In the realm of technology, Saahir has earned recognition as a Headstarter AI Software Engineer Fellow, where he is leveraging AI to address a startup's backlog. Additionally, he is a Ballotpedia Research Fellow, dedicated to supporting the mission of spreading unbiased political candidate information.
+              In the realm of technology, Saahir has earned recognition as a Headstarter AI Software Engineer Fellow, where he is leveraging AI to address a startup&#39;s backlog. Additionally, he is a Ballotpedia Research Fellow, dedicated to supporting the mission of spreading unbiased political candidate information.
             </p>
             <p className="text-lg">
               Saahir&#39;s academic achievements are equally impressive. He is an International Research Olympiad Semi-finalist and an ACSL National Finals Qualifier. Beyond his academic and professional pursuits, he serves as a subject tutor on Upchieve and is an enthusiastic rower for his high school team.
