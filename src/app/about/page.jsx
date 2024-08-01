@@ -170,7 +170,7 @@ const AboutPage = () => {
               className="flex justify-center"
             >
               <Link
-                href="https://www.linkedin.com/in/saahir-vazirani-5850a9297/overlay/1721071749503/single-media-viewer/?profileId=ACoAAEe9GfUBstDAcX0Gdg7trI5PHexDBFq5yFE"
+                href="https://docs.google.com/document/d/1bQUGecB28JOO-IXAXTIsIg7_SzPK37Lz/edit"
                 legacyBehavior
               >
                 <a target="_blank" rel="noopener noreferrer">
