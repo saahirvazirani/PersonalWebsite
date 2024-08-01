@@ -1,5 +1,5 @@
 ## This is Saahir's personal website, featuring a homepage, about page, portfolio page, and contact page
-
+[Check it out here!](https://saahirvazirani.com/)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`]
 
 ## Getting Started
