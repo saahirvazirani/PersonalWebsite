@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Spline from '@splinetool/react-spline';
 
-<link rel="icon" href="/favicon2.ico"></link>
 const Homepage = () => {
   return (
     <motion.div
