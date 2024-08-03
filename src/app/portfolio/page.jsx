@@ -53,13 +53,15 @@ const PortfolioPage = () => {
                     {item.title}
                   </h1>
                   <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
-                    <Image src={item.img} alt="" fill />
+                    <Image src={item.img} alt="saahir vazirani" fill />
                   </div>
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end">
+                  <Link href={item.link} className="flex justify-end" legacyBehavior>
+                  <a target="_blank" rel="noopener noreferrer">
                     <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">View</button>
+                    </a>
                   </Link>
                 </div>
               </div>

@@ -96,6 +96,9 @@ const Navbar = () => {
         <Link href="https://www.linkedin.com/in/saahir-vazirani-5850a9297/" target="_blank" rel="noopener noreferrer">
           <Image src="/linkedin.png" alt="saahir vazirani" width={24} height={24} className="hover:transform hover:scale-110 transition duration-300" />
         </Link>
+        <Link href="https://www.youtube.com/@saahirvazirani" target="_blank" rel="noopener noreferrer">
+          <Image src="/youtube.png" alt="saahir vazirani" width={24} height={24} className="hover:transform hover:scale-110 transition duration-300" />
+        </Link>
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
