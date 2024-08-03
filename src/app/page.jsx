@@ -12,13 +12,13 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col-reverse lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/4 sm:h-1/3 md:h-1/2 lg:h-full lg:w-1/2 relative rounded-lg">
+        <div className="h-1/3 md:h-1/2 lg:h-full lg:w-1/2 relative rounded-lg">
           <Spline scene="https://prod.spline.design/HdEDOpqlP7cQHIvD/scene.splinecode" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-3/4 sm:h-2/3 md:h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+        <div className="h-2/3 md:h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
             Youth Advocate, Policy and Technology Enthusiast, Passionate Rower
